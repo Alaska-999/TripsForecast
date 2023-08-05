@@ -6,10 +6,6 @@
     cursor: pointer;
     position: relative;
 
-    /*@media  (max-width: 1800px) {*/
-    /*    width: 190px;*/
-    /*    height: 240px;*/
-    /*}*/
 }
 
 
@@ -31,13 +27,10 @@
     height: 200px;
     object-fit: fill;
     background-position: center center;
-    /*@media  (max-width: 1800px) {*/
-    /*    height: 170px;*/
-    /*}*/
 }
 
 .trip__delete {
-    background-image: url('assets/icons/icon-close.svg');
+    background-image: url('/assets/icons/icon-close.svg');
     width: 20px;
     height: 20px;
     position: absolute;
@@ -54,9 +47,6 @@
 
 .trip__info {
     padding: 20px;
-    /*@media  (max-width: 1800px) {*/
-    /*    padding: 10px;*/
-    /*}*/
 }
 
 .trip__city-name {
@@ -67,7 +57,4 @@
 .trip__dates {
     font-size: 14px;
     color: var(--grey);
-    /*@media  (max-width: 1800px) {*/
-    /*    font-size: 12px;*/
-    /*}*/
 }

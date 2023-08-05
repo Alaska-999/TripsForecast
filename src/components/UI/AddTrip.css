@@ -12,6 +12,10 @@
     cursor: pointer;
 }
 
+.add-trip-btn--no-trips {
+    margin-left: -50px;
+}
+
 .add-trip-btn:hover{
     background-color: var(--grey--transparent);
 }

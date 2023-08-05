@@ -22,7 +22,6 @@ const Auth: FC = () => {
 
     const logOut = () => {
         googleLogout();
-        console.log('logout')
         dispatch(setUserAuthInfo({
             name: '',
             picture: ''

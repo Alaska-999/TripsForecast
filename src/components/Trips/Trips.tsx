@@ -85,10 +85,12 @@ const TripsList = () => {
             dispatch(setToday({todayWeather: todayData.temp, icon: todayData.icon}));
         }
     };
+
+
     return (
         <div className="trips-list">
             <TripSlider trips={filteredTrips} handleTripActive={handleTripActive} activeTrip={activeTrip} />
-            <AddTrip onClick={() => setModalVisible(true)} />
+            <AddTrip onClick={() => setModalVisible(true)} noTripsAvailable={filteredTrips.length === 0} />
             {isModalVisible && <Modal setModalVisible={setModalVisible} />}
         </div>
     );

@@ -4,6 +4,9 @@
     justify-content: space-between;
     width: 100%;
     padding: 0 70px;
+    @media (max-width: 1750px) {
+        margin-top: 110px;
+    }
 }
 
 .countdown__unit {
