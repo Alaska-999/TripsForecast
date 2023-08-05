@@ -18,7 +18,7 @@ const WeekDay: FC<IWeekDay> = ({date, tempMin, tempMax, icon}) => {
             <div className="day-weather__name">
                 {dayOfWeek}
             </div>
-            <img src={`./src/assets/icons/weather/${icon}.svg`}
+            <img src={`/assets/icons/weather/${icon}.svg`}
                  alt='weather image'
                  className='day-weather__icon'
             />

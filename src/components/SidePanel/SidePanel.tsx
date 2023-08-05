@@ -33,7 +33,7 @@ const SidePanel: FC = () => {
 					<div className="today__week-day">{dayOfWeekName}</div>
 					<div className="today__weather">
 						<img
-							src={`./src/assets/icons/weather/${today.icon}.svg`}
+							src={`assets/icons/weather/${today.icon}.svg`}
 							alt="weather image"
 							className="today__weather-icon"
 						/>

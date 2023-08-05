@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import search from '../../assets/icons/search.svg'
+import search from '/assets/icons/search.svg'
 import './Search.css'
 import {useDispatch} from "react-redux";
 import {searchTrip} from "../../store/slices/tripsSlice.ts";
