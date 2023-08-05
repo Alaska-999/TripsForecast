@@ -1,11 +1,11 @@
 export const data = [
     {
         city: 'Berlin',
-        image: '/assets/cities/berlin.webp',
+        image: '/assets/cities/berlin.jpg',
     },
     {
         city: 'Tokyo',
-        image: '/assets/cities/tokyo.png',
+        image: '/assets/cities/tokyo.jpg',
     },
     {
         city: 'Paris',
@@ -17,7 +17,7 @@ export const data = [
     },
     {
         city: 'Kyiv',
-        image: '/assets/cities/kyiv.webp',
+        image: '/assets/cities/kyiv.jpg',
     },
     {
         city: 'Rome',
