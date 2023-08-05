@@ -1,0 +1,57 @@
+.trip {
+    border: 2px solid var(--light-grey);
+    width: 220px;
+    height: 300px;
+    transition: all ease 0.2s;
+    cursor: pointer;
+    position: relative;
+}
+
+.trip:hover {
+    border: 2px solid var(--grey--transparent);
+}
+
+.trip:active {
+    border-color: var(--grey);
+}
+
+
+.trip--active  {
+    border-color: var(--bright-blue);
+}
+
+.trip__img {
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+}
+
+.trip__delete {
+    background-image: url('../../assets/icons/icon-close.svg');
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border: none;
+    transition: all ease 0.1s;
+    top: 10px;
+    right: 10px;
+    filter: contrast(150%)
+}
+
+.trip__delete:hover {
+    opacity: 0.6;
+}
+
+.trip__info {
+    padding: 20px;
+}
+
+.trip__city-name {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.trip__dates {
+    font-size: 14px;
+    color: var(--grey);
+}

@@ -1,0 +1,20 @@
+.trips-list {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.swiper {
+    margin: 0 0 0 -60px;
+    padding:0 60px;
+
+}
+.swiper-slide {
+    width: 220px!important;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    top: 100px;
+}
+
+

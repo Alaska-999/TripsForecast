@@ -1,0 +1,23 @@
+.day-weather {
+    margin: 0 30px 60px;
+    text-align: center;
+
+}
+
+.day-weather__name {
+    color: var(--grey);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.day-weather__icon {
+    width: 55px;
+    height: 55px;
+}
+
+.day-weather__temp {
+    margin-top: 20px;
+    color: #363a65;
+    font-size: 16px;
+}
+

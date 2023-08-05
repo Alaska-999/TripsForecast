@@ -1,0 +1,26 @@
+.add-trip-btn {
+    background-color: var(--light-grey);
+    width: 230px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: all 0.2s;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.add-trip-btn:hover{
+    background-color: var(--grey--transparent);
+}
+
+.add-trip-btn__plus {
+    width: 25px;
+    height: 25px;
+}
+
+.add-trip-btn__text {
+    font-size: 20px;
+}

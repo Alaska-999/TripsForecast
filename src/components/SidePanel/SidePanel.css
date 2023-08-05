@@ -1,0 +1,70 @@
+.side-panel {
+    width: 33%;
+    background-color: #110e3b;
+    padding: var(--container);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.today {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 190px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.user-avatar {
+    width: 85px;
+    height: 85px;
+    z-index: 100;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    outline: none;
+}
+
+.today__week-day {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.today__weather {
+    position: relative;
+    margin-top: 30px;
+}
+
+.today__temp {
+    font-size: 80px;
+}
+
+.today__temp--sm {
+    font-size: 28px;
+    position: absolute;
+    right: -20px;
+    top: -8px;
+    font-weight: 200;
+}
+
+.today__weather-icon {
+    width: 85px;
+    height: 85px;
+    background-color: #ecf0f5;
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+    right: 115px;
+    top: 5px;
+}
+
+.today__trip-city {
+    font-size: 32px;
+    font-weight: 200;
+    margin-top: 40px;
+}
+

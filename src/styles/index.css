@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    --light-grey: #f3f5f8;
+    --grey: rgb(155, 155, 155);
+    --grey--transparent: #e7e8ec;
+    --blue: #363a65;
+    --bright-blue: #1991ff;
+    --black: #010100;
+    --container: 35px 30px;
+    color: var(--black);
+    margin: 0 auto;
+    font-family: Inter, sans-serif;
+}
+
+
