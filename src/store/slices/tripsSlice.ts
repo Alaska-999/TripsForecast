@@ -6,11 +6,11 @@ const initialState: ITripsState = {
 	cities: [],
 	trips: [
 		{
-			city: 'Berlin',
+			city: 'Kyiv',
 			startDate: '2023-09-02',
 			endDate: '2023-09-07',
 			tripDays: [],
-			image: '/assets/cities/berlin.jpg',
+			image: '/assets/cities/kyiv.jpg',
 		},
 	],
 	selectedTrip: null,
