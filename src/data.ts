@@ -1,26 +1,26 @@
 export const data = [
     {
         city: 'Berlin',
-        image: '/src/assets/cities/berlin.webp',
+        image: '/assets/cities/berlin.webp',
     },
     {
         city: 'Tokyo',
-        image: '/src/assets/cities/tokyo.png',
+        image: '/assets/cities/tokyo.png',
     },
     {
         city: 'Paris',
-        image: '/src/assets/cities/paris.jpg',
+        image: '/assets/cities/paris.jpg',
     },
     {
         city: 'London',
-        image: '/src/assets/cities/london.jpg',
+        image: '/assets/cities/london.jpg',
     },
     {
         city: 'Kyiv',
-        image: '/src/assets/cities/kyiv.webp',
+        image: '/assets/cities/kyiv.webp',
     },
     {
         city: 'Rome',
-        image: '/src/assets/cities/rome.jpg',
+        image: '/assets/cities/rome.jpg',
     },
 ]
