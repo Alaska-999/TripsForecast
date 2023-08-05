@@ -10,7 +10,7 @@ const Main: FC = () => {
         <div className='main'>
             <div className="header">
             <h1 className='main__heading'>Weather
-                <span className='main__heading--b'>Forecast</span>
+                <span className='main__heading--b'> Forecast</span>
             </h1>
                 <Auth/>
             </div>
