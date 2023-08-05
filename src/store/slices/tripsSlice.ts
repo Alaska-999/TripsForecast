@@ -10,7 +10,7 @@ const initialState: ITripsState = {
 			startDate: '2023-09-02',
 			endDate: '2023-09-07',
 			tripDays: [],
-			image: '/src/assets/cities/berlin.webp',
+			image: '/assets/cities/berlin.jpg',
 		},
 	],
 	selectedTrip: null,
