@@ -24,3 +24,4 @@ export const data = [
         image: '/assets/cities/rome.jpg',
     },
 ]
+
