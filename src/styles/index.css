@@ -16,7 +16,7 @@ body {
     --container: 35px 30px;
     color: var(--black);
     margin: 0 auto;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 

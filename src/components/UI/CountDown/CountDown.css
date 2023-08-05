@@ -10,6 +10,7 @@
 }
 
 .countdown__unit {
+    font-family: 'Inter', sans-serif;
     font-weight: 900;
     font-size: 28px;
 }

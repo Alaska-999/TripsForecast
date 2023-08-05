@@ -6,10 +6,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-weight: bold;
+    font-weight: 400;
     transition: all 0.2s;
     margin-left: 30px;
     cursor: pointer;
+
 }
 
 .add-trip-btn--no-trips {
