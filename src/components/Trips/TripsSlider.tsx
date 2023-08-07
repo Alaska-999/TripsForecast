@@ -14,16 +14,6 @@ interface ITripsSlider {
         city: string;
         startDate: string;
         endDate: string;
-    } | null;
-}
-
-interface ITripsSlider {
-    trips: ITrip[];
-    handleTripActive: (city: string, startDate: string, endDate: string) => void;
-    activeTrip: {
-        city: string;
-        startDate: string;
-        endDate: string;
     } | null
 }
 
