@@ -1,12 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { persistStore, persistReducer } from 'redux-persist';
-import storage from 'redux-persist/lib/storage'; // Choose 'localStorage' or 'sessionStorage' as per your preference
+import storage from 'redux-persist/lib/storage';
 
 import tripsReducer from './slices/tripsSlice';
 import userReducer from './slices/userSlice';
 
 const persistConfig = {
-	key: 'root', // The key for the persisted data in local storage
+	key: 'root',
 	storage,
 };
 
