@@ -6,6 +6,7 @@ import {ITrip} from '../../types/types.ts';
 import './TripsSlider.css';
 import {FC} from "react";
 import Trip from "./Trip/Trip.tsx";
+import {nanoid} from "nanoid";
 
 interface ITripsSlider {
     trips: ITrip[];
@@ -44,7 +45,7 @@ const TripSlider: FC<ITripsSlider> = ({
         >
             {
                 trips.map((trip) => (
-                    <div key={Math.random()}>
+                    <div key={nanoid()}>
                         <SwiperSlide>
                             <Trip
                                 isActive={
