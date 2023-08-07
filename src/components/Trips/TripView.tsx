@@ -1,5 +1,5 @@
 import {FC} from 'react';
-import './Trip.css';
+import './TripView.css';
 import {useAppDispatch} from '../../hooks/useAppDispatch';
 import {removeTrip} from '../../store/slices/tripsSlice';
 

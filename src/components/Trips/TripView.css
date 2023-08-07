@@ -5,9 +5,7 @@
     transition: all ease 0.2s;
     cursor: pointer;
     position: relative;
-
 }
-
 
 .trip:hover {
     border: 2px solid var(--grey--transparent);
