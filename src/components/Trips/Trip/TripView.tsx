@@ -1,7 +1,7 @@
 import {FC} from 'react';
 import './TripView.css';
-import {useAppDispatch} from '../../hooks/useAppDispatch';
-import {removeTrip} from '../../store/slices/tripsSlice';
+import {useAppDispatch} from '../../../hooks/useAppDispatch.ts';
+import {removeTrip} from '../../../store/slices/tripsSlice.ts';
 
 interface ITripProps {
     city: string;

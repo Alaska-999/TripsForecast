@@ -5,7 +5,7 @@ import 'swiper/css/navigation';
 import {ITrip} from '../../types/types.ts';
 import './TripsSlider.css';
 import {FC} from "react";
-import Trip from "./Trip.tsx";
+import Trip from "./Trip/Trip.tsx";
 
 interface ITripsSlider {
     trips: ITrip[];

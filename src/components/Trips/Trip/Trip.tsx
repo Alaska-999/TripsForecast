@@ -1,10 +1,10 @@
 import TripView from "./TripView.tsx";
 import {FC} from "react";
 import axios from "axios";
-import {API_KEY} from "../../keys.ts";
-import {ITripDay} from "../../types/types.ts";
-import {selectTrip, setForecast, setToday} from "../../store/slices/tripsSlice.ts";
-import {useAppDispatch} from "../../hooks/useAppDispatch.ts";
+import {API_KEY} from "../../../keys.ts";
+import {ITripDay} from "../../../types/types.ts";
+import {selectTrip, setForecast, setToday} from "../../../store/slices/tripsSlice.ts";
+import {useAppDispatch} from "../../../hooks/useAppDispatch.ts";
 
 interface ITripProps {
     city: string;
